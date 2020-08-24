@@ -39,7 +39,7 @@ public class Derp {
         System.out.println(Arrays.toString(directories));
         for (int i = 0; i < directories.length; i++) {
             String fullName = parent.toString() + "\\" + directories[i];
-            System.out.println("deleting directory " + (i+1) + "/" + directories.length + fullName);
+            System.out.println("deleting directory " + (i+1) + "/" + directories.length + " " + fullName);
             deleteDir(new File(fullName));
         }
     }
