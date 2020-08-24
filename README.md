@@ -1,7 +1,7 @@
 ## Temp folder keeps populating with automatically, filling up the drive.
 
 #### Requirements
-- Java 8
+- Java 14
 
 #### Issue 
 C:/Users/<username>/AppData/Local/Temp/ folder keeps filling up with folders that have a name like 
@@ -16,8 +16,8 @@ Then, it will iteratively delete each of these folders, sending them to the recy
 By saving the deletetemps.bat file to a location on my drive, and then setting up windows task scheduler to auto run this each morning at 12:24AM, I am able to save alot of time during my actual work day. The folders are sent into the recycling bin, so they aren't deleted permanently. But by having a program running each night during off-hours and doing the grunt work of moving the files into the recycling bin, subsequent manual cleanup is very fast. Windows can delete 20 GB worth of these folders from the recycling bin extraordinarily fast, compared to the time necessary to manually remove the same 20GB of files from the appdata folder (takes literal hours).
 
 #### Setup
-Clone this repo to your local hard drive. The program is Derp.java, which needs Java 8 to be compiled and run. The script, deletetemps.bat, is what will run the java program. Store these somewhere on your hard drive, and make some modifications to the java file and the batch file. You will need to modify the paths included there to match the path on your computer. Generally speaking, you should only need to modify the username.
-Give it a test run, and see if the .bat file will run. It spits out a log file in D:\deletetemps. If you do not have a D drive, just change the path in the deletetemps.bat file to match whatever path you'd like to use.
+Clone this repo to your local hard drive. The program is Derp.java, which needs Java 14 to be compiled and run. The script, deletetemps.bat, is what will run the java program. Store these somewhere on your hard drive.
+
 If you have issues running this, feel free to shoot me an email at cptwonton@gmail.com
 
 
