@@ -17,7 +17,7 @@ By saving the deletetemps.bat file to a location on my drive, and then setting u
 
 #### Setup
 Clone this repo to your local hard drive. The program is Derp.java, which needs Java 14 to be compiled and run. The script, deletetemps.bat, is what will run the java program. Store these somewhere on your hard drive.
-Once you store both the `.bat` file and the `.java` file on your hard drive, all you need to do is double-click the `.bat` file.
+Once you store both the `.bat` file and the `.java` file (in the same directory) on your hard drive, all you need to do is double-click the `.bat` file.
 
 If you have issues running this, feel free to shoot me an email at cptwonton@gmail.com
 
