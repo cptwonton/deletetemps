@@ -20,7 +20,6 @@ Clone this repo to your local hard drive. The program is Derp.java, which needs 
 
 If you have issues running this, feel free to shoot me an email at cptwonton@gmail.com
 
-
 #### TODO
 Still, after setting this all up, I notice a few folders in appdata/temp that still follow the naming convention and still have DismHost.exe inside, but do not have anything else that came with the folder. This is probably because windows was able to delete everything that was not currently in use, and DismHost.exe was the only file still in use by "something" during the nightly delete operation. Still, this is an improvement over having EVERYTHING still in the appdata/temp folder
 
